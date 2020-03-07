@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "view": {
+      "id": "jxy9-yhdk",
+      "name": "Baby Names: Beginning 2007",
+      "attribution": "New York State Department of Health",
+      "attributionLink": "http://www.health.ny.gov/statistics/vital_statistics/",
+      "averageRating": 0,
+      "category": "Health",
+      "createdAt": 1356724562,
+      "description": "New York State Baby Names are aggregated and displayed by the year, county, or borough where the mother resided as stated on a New York State or New York City (NYC) birth certificate. The frequency of the baby name is listed if there are 5 or more of the same baby name in a county outside of NYC or 10 or more of the same baby name in a NYC borough.",
+      "displayType": "table",
+      "downloadCount": 58558,
+      "hideFromCatalog": false,
+      "hideFromDataJson": false,
+      "indexUpdatedAt": 1527713966,
+      "newBackend": true,
+      "numberOfComments": 0,
+      "oid": 28927042,
+      "provenance": "official",
+      "publicationAppendEnabled": false,
+      "publicationDate": 1527713207,
+      "publicationGroup": 583607,
+      "publicationStage": "published",
+      "rowClass": "",
+      "rowsUpdatedAt": 1574264162,
+      "rowsUpdatedBy": "a9xd-f5um",
+      "tableId": 15236047,
+      "totalTimesRated": 0,
+      "viewCount": 75683,
+      "viewLastModified": 1574264157,
+      "viewType": "tabular",
+      "approvals": [
+        {
+          "reviewedAt": 1527713207,
+          "reviewedAutomatically": true,
+          "state": "approved",
+          "submissionId": 582096,
+          "submissionObject": "public_audience_request",
+          "submissionOutcome": "change_audience",
+          "submittedAt": 1527713207,
+          "workflowId": 1966,
+          "submissionDetails": {
+            "permissionType": "READ"
+          },
+          "submissionOutcomeApplication": {
+            "failureCount": 0,
+            "status": "success"
+          },
+          "submitter": {
+            "id": "s9j2-nqmr",
+            "displayName": "Open Data NY - DOH"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": -1,
+          "name": "sid",
+          "dataTypeName": "meta_data",
+          "fieldName": ":sid",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "id",
+          "dataTypeName": "meta_data",
+          "fieldName": ":id",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "position",
+          "dataTypeName": "meta_data",
+          "fieldName": ":position",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "created_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "created_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "updated_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "updated_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": -1,
+          "name": "meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [
+            "hidden"
+          ]
+        },
+        {
+          "id": 361599813,
+          "name": "Year",
+          "dataTypeName": "number",
+          "description": "Year data was collected",
+          "fieldName": "year",
+          "position": 1,
+          "renderTypeName": "number",
+          "tableColumnId": 6477901,
+          "width": 89,
+          "cachedContents": {
+            "largest": "2017",
+            "non_null": 235510,
+            "average": "2014.408819158422",
+            "null": "0",
+            "top": [
+              {
+                "item": "2014",
+                "count": "8362"
+              },
+              {
+                "item": "2008",
+                "count": "6481"
+              },
+              {
+                "item": "2007",
+                "count": "6367"
+              },
+              {
+                "item": "2009",
+                "count": "6312"
+              },
+              {
+                "item": "2011",
+                "count": "6216"
+              },
+              {
+                "item": "2010",
+                "count": "6192"
+              },
+              {
+                "item": "2012",
+                "count": "6164"
+              },
+              {
+                "item": "2013",
+                "count": "6158"
+              },
+              {
+                "item": "2016",
+                "count": "6130"
+              },
+              {
+                "item": "2015",
+                "count": "6098"
+              },
+              {
+                "item": "2017",
+                "count": "6019"
+              }
+            ],
+            "smallest": "2007",
+            "not_null": "70499",
+            "sum": "474413421",
+            "cardinality": "11"
+          },
+          "format": {
+            "precisionStyle": "standard",
+            "noCommas": "false",
+            "align": "center",
+            "mask": "####"
+          }
+        },
+        {
+          "id": 361599814,
+          "name": "First Name",
+          "dataTypeName": "text",
+          "description": "First name",
+          "fieldName": "first_name",
+          "position": 2,
+          "renderTypeName": "text",
+          "tableColumnId": 6477902,
+          "width": 260,
+          "cachedContents": {
+            "largest": "ZURI",
+            "non_null": 235510,
+            "null": "0",
+            "top": [
+              {
+                "item": "EMMA",
+                "count": "434"
+              },
+              {
+                "item": "OLIVIA",
+                "count": "406"
+              },
+              {
+                "item": "JACOB",
+                "count": "400"
+              },
+              {
+                "item": "LOGAN",
+                "count": "400"
+              },
+              {
+                "item": "MASON",
+                "count": "386"
+              },
+              {
+                "item": "SOPHIA",
+                "count": "372"
+              },
+              {
+                "item": "ISABELLA",
+                "count": "372"
+              },
+              {
+                "item": "NOAH",
+                "count": "371"
+              },
+              {
+                "item": "LIAM",
+                "count": "366"
+              },
+              {
+                "item": "AVA",
+                "count": "355"
+              },
+              {
+                "item": "ALEXANDER",
+                "count": "338"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
